@@ -1,6 +1,3 @@
-
-
-
 /**
  * Clase que modela una red neuronal que averigua la letra
  * del NIF a partir del DNI.
@@ -143,11 +140,8 @@ public class RedNeuronalDNI
 			String str = "";
 
 			str += this.name + "\n";
-//			str += " N\u00FAmero de muestras: " + samples + "\n";
 			str += " Error total: " + error + "\n";
-//			str += " Error total medio: " + error/samples + "\n";
 			str += " Error cuadr\u00E1tico: " + error_2 + "\n";
-//			str += " Error cuadr\u00E1tico medio: " + error_2/samples + "\n";
 			str += " Error de aproximaci\u00F3n: " + error_aprx + "\n";
 			str += " Letra obtenida:" + LETRAS_NIF.charAt(letra) + "\n";
 			str += " Letra esperada:" + LETRAS_NIF.charAt(dni%23) + "\n";
